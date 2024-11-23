@@ -55,16 +55,6 @@ double Kp = 2.0, Ki = 0.5, Kd = 0.25;
     -- D --  (и дополнительная точка DP)
 
 */
-const uint8_t SEG_ON[] = {
-    SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F, // O
-    SEG_C | SEG_E | SEG_G                         // n
-    };
-
-const uint8_t SEG_OFF[] = {
-    SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F, // O
-    SEG_A | SEG_E | SEG_F | SEG_G                 // F
-    };
-
 const uint8_t SEG_P[] = {
     SEG_A | SEG_B | SEG_G | SEG_F | SEG_E // P
     };
